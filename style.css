@@ -1,0 +1,1028 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    overflow-x: hidden !important;
+}
+a {
+    cursor: pointer;
+}
+h2 {
+    line-height: 0.6 !important;
+}
+
+
+header a {
+    background-color: #D9E242;
+    color: #503490;
+    border: 2px solid #503490;
+}
+
+.header__ancora-instagram, .header__ancora-contato {
+    width: 350px;
+    max-width: 440px;
+}
+
+.header__pelalingua-img {
+    width: 100%;
+}
+
+.header__div__ancora-e-fundo-roxo {
+    position: relative;
+    padding: 0 -100% 0 -100%;
+}
+
+.header__div__ancora-aprender {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header__ancora-aprender {
+    width: 700px;
+}
+
+.header__fundo-roxo {
+    background-color: #503490;
+    height: 100px;
+    padding: 0 -100% 0 -100%;
+}
+
+/* picture {
+    width: 10%;
+} */
+
+.sobre-mim__foto-giulia {
+    width: 354px;
+    /* height: 100%; */
+}
+
+.header__padding-laterais {
+    padding: 0 10% 0 10%;
+}
+
+.section-sobre-mim {
+    padding: 0 6% 0 6%;
+}
+
+.sobre-mim_div-foto {
+    padding-top: 126px;
+    position: relative;
+}
+
+.sobre-mim_div-foto__quem-sou__texto {
+    background-color: #D9E242;
+    padding: 8px 10px 8px 10px;
+    border: 1px solid #503490;
+    border-radius: 6px;
+    position: absolute;
+    /* top: 50%; */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+.title-hello {
+    color: #503490;
+}
+
+.title-you {
+    color: #FF602D;
+}
+
+.section-sobre-mim p {
+        text-align: justify;
+}
+.sobre-mim__conteudo {
+    padding-top: 40px;
+    max-width: 520px;
+}
+
+.card-globo {
+    margin-top: 16%;
+    width: 450px;
+    height: 450px;
+    background-color: #FF602D;
+    border: 1px solid #503490;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+
+.card-globo:hover {
+    transform: scale(1.02);
+}
+
+.card-globo__globo-noticia-img {
+    width: 94%;
+    padding-top: 3%;
+}
+
+.card-globo__ancora-play {
+    width: 50px;
+    height: 50px;
+    bottom: -26px;
+    right: 46%;
+}
+
+.sobre-mim__formas__laranja {
+    position: absolute;
+    right: 0px;
+    /* top: 0; */
+    z-index: -1;
+    bottom: -300px;
+}
+
+.sobre-mim__formas__verde {
+    position: absolute;
+    bottom: -800px;
+}
+.section-estudar-juntos {
+    display: grid;
+    grid-template-columns: 45% 55%;
+  }
+  
+  .coluna1 {
+    grid-column: 1;
+    z-index: 6;
+  }
+  
+  .estudar-juntos__background {
+    height: 100%;
+    max-height: 980px;
+    width: 100%;
+  }
+
+  .coluna2 {
+    grid-column: 2;
+    background-color: #503490;
+    padding: 4% 6%;
+  }
+
+  .card-modalidade {
+    background-color: #422A7B;
+    position: relative;
+  }
+
+  .card-modalidade-img {
+    /* padding: 4%; */
+    /* width: 100%; */
+    width: 90%;
+    /* max-width: 600px; */
+  }
+
+  picture {
+    width: 100%;
+  }
+  .card-modalidade__info {
+    top: 100px;
+    width: 50%;
+    right: 40px;
+  }
+
+  .card-modalidade__info span {
+    color: #D9E242;
+  }
+  /* .card-modalidade__titulo {
+    background-color: #D9E242;
+    padding: 8px 10px 8px 10px;
+    border: 1px solid #503490;
+    border-radius: 6px;
+    position: absolute;
+    left: 45%;
+    top: 15%;
+  } */
+
+  /* .card-modalidade p {
+    padding: 0 5%;
+} */
+
+.section-iniciantes {
+    background-color: #D9E242;
+}
+
+.section-individuais {
+    background-color: #FF602D;
+}
+
+.section-grupo {
+    background-color: #503490;
+}
+
+.section-iniciantes, .section-grupo, .section-individuais {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding: 4% 6%;
+}
+
+.iniciantes-info, .grupo-info, .individuais-info {
+    grid-column: 1;
+}
+
+.iniciantes-diferenças, .grupo-diferenças, .individuais-diferenças {
+    grid-column: 2;
+}
+
+.iniciantes-info p {
+    text-align: justify;
+}
+
+.span-turmas, .grupo-span-turmas, .individuais-span-turmas {
+    letter-spacing: 15px;
+}
+
+.span-turmas {
+    color: #503490;
+}
+
+.grupo-span-turmas, .individuais-span-turmas {
+    color: #D9E242;
+}
+
+.iniciantes-info__div-titulo, .grupo-info__div-titulo, .individuais-info__div-titulo {
+    position: relative;
+    /* color: #D9E242; */
+    /* border-radius: 100%; */
+    /* width: 100px; */
+}
+
+.grupo-info__titulo-span, .iniciantes-info__titulo-span, .individuais-info__titulo-span {
+    padding: 12px;
+    position: relative;
+    z-index: 3;
+    position: absolute;
+    bottom: -26px;
+}
+
+.iniciantes-info__titulo-span {
+    color: #D9E242;
+}
+
+.grupo-info__titulo-span, .individuais-info__titulo-span {
+    color: #503490;
+}
+
+.grupo-info__titulo-span::before, .iniciantes-info__titulo-span::before, .individuais-info__titulo-span::before{
+    content: "";
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1; /* Adicionado para posicionar o pseudo-elemento */
+    top: 50%; /* Adicionado para centralizar verticalmente */
+    left: 50%; /* Adicionado para centralizar horizontalmente */
+    transform: translate(-50%, -50%); /* Adicionado para centralizar perfeitamente */
+    display: block; /* Adicionado para permitir que width e height funcionem */
+    border: 1px solid #503490;
+}
+
+.iniciantes-info__titulo-span::before {
+    background-color: #503490;
+}
+
+.grupo-info__titulo-span::before, .individuais-info__titulo-span::before {
+    background-color: #D9E242;
+}
+
+.iniciantes-info__titulo, .grupo-info__titulo, .individuais-info__titulo {
+    border-radius: 8px;
+    border: 2px solid #503490;
+}
+
+.iniciantes-info__titulo, .grupo-info__titulo {
+    background-color: #FF602D;
+}
+
+.individuais-info__titulo {
+    background-color: #503490;
+}
+
+.iniciantes-diferenças__span {
+    color: #503490;
+}
+
+.grupo-diferenças__span {
+    color: #D9E242;
+}
+
+.diferenças__img {
+    width: 190px; 
+}
+
+.diferenças__div-preço {
+    background-color: white;
+    border: 2px solid #503490;
+    position: relative;
+    border-radius: 10px;
+}
+
+.iniciantes-diferenças__div-preço__investi, .grupo-diferenças__div-preço__investi {
+    background-color: #FF602D;
+    border: 2px solid #503490;
+    position: absolute;
+    z-index: 10;
+    top: -26px;
+}
+
+.iniciantes-diferenças__div-preço__investi {
+    left: 100px;
+}
+
+.grupo-diferenças__div-preço__investi {
+    left: 144px;
+}
+
+.iniciantes-diferenças__div-preço__p {
+    color: #503490;
+}
+
+.diferenças__ancora, .diferenças__ancora__individuais {
+    border: 2px solid #503490;
+}
+
+.diferenças__ancora {
+    background-color: #FF602D;
+}
+
+.diferenças__ancora__individuais {
+    background-color: #503490;
+}
+.whatsapp-icon-div {
+    position: relative;
+}
+
+.whatsapp-icon-anchor, .whatsapp-icon-anchor__ancora-branca, .whatsapp-icon-anchor__header {
+    background-color: #55C057;
+    display: inline-block;
+    width: 74px;
+    height: 74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 3px solid #503490;
+    position: absolute;
+    top: -22px;
+}
+
+.whatsapp-icon-anchor__header {
+    top: -10px;
+    left: -408px;
+}
+.whatsapp-icon-anchor {
+    left: -40px;
+}
+.whatsapp-icon-anchor__ancora-branca {
+    left: 278px;
+}
+
+.ancora-branca-pt {
+    left: -40px;
+}
+
+.whatsapp-icon {
+    width: 50px;
+    height: 50px;
+    fill: white;
+    /* background-color: #55C057; */
+    /* background-color: #55C057; */
+}
+
+
+
+.grupo-tabela-preço {
+    color: #503490;
+}
+
+.section-aprender-pt {
+    background-color: #D9E242;
+
+}
+
+.aprender-pt-grid {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding: 4% 6%;
+    position: relative;
+}
+
+
+.aprender-pt-info {
+    padding-top: 120px;
+}
+
+.aprender-pt-info__titulo {
+    color: #503490;
+}
+
+.aprender-pt-info__titulo span {
+    color: #FF602D;
+}
+
+.ancora-branca {
+    background-color: white;
+    color: #503490;
+    border: 2px solid #503490;
+}
+
+.card-aprender-pt, .card-aprender-pt__descrição {
+    width: 280px;
+}
+
+.card-aprender-pt__descrição  {
+    width: 297px;
+    height: 100px;
+}
+
+.card-aprender-pt__descrição {
+    background-color: #503490;
+}
+
+.section-aprender-continuação {
+    background-color: #7DBE56;
+    padding: 4% 6%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.section-aprender-continuação-descrição {
+    background-color: #503490;
+    border-radius: 0 10px 10px 10px;
+    border: 1px solid #D9E242;
+}
+
+.continuação-preços__titulo {
+    color: #503490;
+    background-color: #D9E242;
+}
+
+.section-depoimentos {
+    background-color: #D9E242;
+    padding: 4% 6%;
+}
+
+.aprender-continuação__div  {
+    color: #503490;
+}
+
+.aprender-continuação__div {
+    background-color: white;
+    width: 280px;
+}
+
+.aprender-continuação__div:first-child {
+    background-color: #F3F3F3 !important;
+}
+
+.card-aprender-pt__img {
+    border-radius: 4px;
+}
+
+.depoimentos-ancora_centralizada {
+    border: 2px solid #503490;
+    color: #503490;
+    border-radius: 10px;
+    box-shadow: none !important;
+}
+
+.depoimentos-ancora_centralizada-whatsapp {
+    left: -402px;
+}
+
+.section-depoimentos__titulo {
+    background-color: #FF602D;
+    border: 2px solid #503490;
+    border-radius: 10px;
+}
+
+.todos-depoimentos {
+    column-gap: 120px;
+    margin: 0 50px;
+}
+
+.depoimentos-aviso {
+    background-color: #FF602D;
+    border-radius: 10px;
+}
+
+footer {
+    background-image: url(assets/IMG_8399.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 400px 0% 200px 0;
+}
+
+.footer_div-textos {
+    color: #D9E242;
+}
+
+.aprender-pt__ancoras {
+    gap: 2.5rem;
+}
+
+@media screen and (max-width: 500px) { 
+    .diferenças__img {
+        max-width: 100px !important;
+        width: auto;
+    }
+}
+@media screen and (max-width: 1023px) {
+
+    .text-xs {
+        font-size: 0.5rem !important;
+    }
+    .header__padding-laterais {
+        padding: 0 5% 0 5%;
+    }
+
+    .header__ancora-aprender {
+        width: 324px;
+    }
+
+    .sobre-mim_div-foto {
+        border-radius: 40px !important;
+        padding-top: 50px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .sobre-mim__foto-giulia {
+        width: 200px;
+    } 
+    .sobre-mim__formas__laranja, .sobre-mim__formas__verde {
+        transform: scaleX(-1);
+    }
+
+    .sobre-mim__formas__verde {
+        right: 0;
+        bottom: -444px;
+        width: 200px;
+        z-index: -1;
+    }
+
+    .sobre-mim__formas__laranja {
+        right: auto;
+        width: 340px;
+    }
+
+    .card-globo {
+        width: 300px;
+        height: 340px;
+    }
+
+    .card-globo__ancora-play {
+        width: 40px;
+        height: 40px;
+        bottom: -20px;
+        right: 45%;
+    }
+
+    .coluna2 {
+        padding: 4% 0%;
+    }
+
+    .section-iniciantes, .section-grupo, .section-individuais, .aprender-pt-grid, .section-aprender-continuação, .section-estudar-juntos {
+        display: block;
+        overflow: hidden;
+    }    
+
+    .diferenças__img {
+        width: 100%;
+        max-width: 150px;
+    }
+
+    .iniciantes-diferenças__div-preço__investi {
+        left: 63px;
+    }
+    
+    .iniciantes-diferenças__div-preço__p, .grupo-tabela-preço {
+        white-space: nowrap;
+    }
+
+    .grupo-info__titulo-span::before, .iniciantes-info__titulo-span::before, .individuais-info__titulo-span::before {
+        width: 65px;
+        height: 65px;
+    }
+
+    .grupo-info__titulo-span, .iniciantes-info__titulo-span, .individuais-info__titulo-span {
+        bottom: -21px;
+    }
+    
+    .grupo-diferenças__div-preço__investi {
+        left: 67px;
+    } 
+
+    .card-aprender-pt {
+        width: 102px;
+    }
+
+    .aprender-pt-info {
+        padding-top: 20px;
+    }
+
+    .card-aprender-pt {
+        width: 31.333% !important;
+    }
+
+    .whatsapp-icon-anchor__ancora-branca {
+        left: 218px;
+    }
+
+    .aprender-continuação__div {
+        width: 200px;
+    }
+
+    .todos-depoimentos {
+        margin: auto;
+    }
+
+    .depoimento-pessoa {
+        padding: 4% 0%;
+    }
+
+    .footer__creditos {
+        background-color: #503490;
+        border-radius: 4px;
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (min-width: 750px) and (max-width: 1023px) {
+    .section-aprender-continuação {
+        display: grid !important;
+    }
+
+    .section-aprender-continuação-preços {
+        padding-top: 100px;
+        padding-left: 40px;
+    }
+
+    .sobre-mim__formas__laranja {
+        width: 420px;
+    }
+
+    .sobre-mim__formas__verde {
+        width: 314px;
+    }
+
+    .card-globo {
+        margin-top: 7%;
+    }
+
+    .depoimento-pessoa {
+        padding: 20px 100px;
+    }
+
+    .depoimentos-aviso {
+        margin: 20px 100px;
+    }
+
+    .sobre-mim__foto-giulia {
+        width: 240px;
+    }
+
+    .card-aprender-pt {
+        max-width: 225px;
+    }
+}
+
+/* @media screen and (min-width: 1024px) and (max-width: 1259px) */
+@media screen and (min-width: 1024px) and (max-width: 1259px) { 
+
+    .section-sobre-mim {
+        padding: 0 2% 0 2%;
+    }
+
+    .card-globo {
+        width: 350px;
+        height: 350px;
+    }
+
+    .section-iniciantes, .section-grupo, .section-individuais {
+        display: grid;
+        grid-template-columns: 45% 55%;
+        padding: 4% 6%;
+    }
+
+    .sobre-mim__conteudo {
+        padding-top: 40px;
+        max-width: 330px;
+    }
+
+    .sobre-mim__formas__verde {
+        bottom: -620px;
+        width: 200px;
+    }
+
+    .sobre-mim__formas__laranja {
+        width: 300px;
+        top: 50px;
+    }
+
+    .sobre-mim_div-foto {
+        width: 250px;
+    }
+    .iniciantes-diferenças__div-preço__investi {
+        left: 80px;
+    }
+
+    .diferenças__img {
+        width: 120px;
+    }
+
+    .grupo-diferenças__div-preço__investi {
+        left: 80px;
+    }
+     
+    .grupo-info__titulo-span::before, .iniciantes-info__titulo-span::before, .individuais-info__titulo-span::before {
+        width: 65px;
+        height: 65px;
+    }
+
+    .grupo-info__titulo-span, .iniciantes-info__titulo-span, .individuais-info__titulo-span {
+        bottom: -20px;
+    }
+
+    .grupo-info__titulo-span, .iniciantes-info__titulo-span, .individuais-info__titulo-span {
+        padding: 12px 0;
+    }
+
+    .card-aprender-pt__img {
+        max-width: 170px;
+    }
+    .aprender-pt-info {
+        padding-top: 20px;
+    }
+    .section-depoimentos {
+        padding: 4% 0%;
+    }
+
+    .todos-depoimentos {
+        column-gap: 60px;
+        margin: 0 50px;
+    }
+
+    .aprender-continuação__div {
+        width: 214px;
+    }
+
+    .ancora-menor-whatsapp {
+        left: 220px;
+    }
+}
+
+@media screen and (min-width: 1260px) and (max-width: 1400px) {
+    .header__padding-laterais {
+        padding: 0 15% 0 15%;
+    }
+
+    .header__padding-laterais picture {
+        margin-top: 1.5rem;
+        margin-bottom: 0;
+    }
+
+    .card-globo {
+        height: 370px !important;
+    }
+
+    .aprender-pt__ancoras .ancora-branca {
+        left: 200px;
+    }
+
+}
+@media screen and (min-width: 1260px) and (max-width: 1599px) {
+
+    .section-iniciantes, .section-grupo, .section-individuais {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding: 4% 6%;
+    }
+
+    .diferenças__img {
+        width: 170px;
+    }
+        
+    .sobre-mim__conteudo {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    .card-globo { 
+        height: 400px;
+    }
+
+    .iniciantes-diferenças__div-preço__investi {
+        left: 80px;
+    }
+
+    .grupo-diferenças__div-preço__investi {
+        left: 96px;
+    }
+    .card-modalidade-img {
+        width: 100%;
+    }
+
+    .aprender-pt-grid {
+        grid-template-columns: 46% 54%;
+        padding: 4% 4%;
+    }
+
+    .todos-cards-aprender {
+        gap: 14px;
+    }
+
+    .ancora-menor-whatsapp {
+        left: 220px;
+    }
+
+    .card-aprender-pt {
+        max-width: 200px;
+        /* height: 10%; */
+    }
+
+    .aprender-pt-grid {
+        row-gap: 2px;
+    }
+
+    .aprender-pt__ancoras {
+        gap: 1.5rem;
+    }
+
+
+    .todos-depoimentos {
+        column-gap: 66px !important;
+        margin: 0;
+    }
+
+    .sobre-mim__formas__verde {
+        width: 280px;
+    }
+
+    .sobre-mim__formas__laranja {
+        width: 320px;
+    }
+
+    footer {
+        padding: 300px 0% 200px 0;
+    }
+
+    .card-aprender-pt__img {
+        padding: 0 4px;
+    }
+
+    .aprender-pt-info {
+        padding-top: 70px;
+    }
+}
+
+@media screen and (min-width: 1600px) and (max-width: 1800px) {
+    .card-aprender-pt__img {
+        width: 90%;
+    }
+
+    .aprender-pt__ancoras {
+        gap: 1rem;
+    }
+}
+
+.diferenças__div-preço, .iniciantes-diferenças__div-preço__investi, 
+.iniciantes-info__titulo, .grupo-diferenças__div-preço__investi, .grupo-info__titulo,
+.individuais-info__titulo, .card-aprender-pt__img, .section-aprender-continuação-descrição,
+.section-depoimentos__titulo, .sobre-mim_div-foto__quem-sou__texto {
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 2px, rgba(0, 0, 0, 0.08) 0px 2px 4px, rgba(0, 0, 0, 0.08) 0px 4px 8px, rgba(0, 0, 0, 0.08) 0px 8px 16px, rgba(0, 0, 0, 0.08) 0px 16px 32px, rgba(0, 0, 0, 0.08) 0px 32px 64px;
+}
+/* Shine */
+.card-modalidade picture {
+	position: relative;
+    cursor: pointer;
+    transition: transform 1s ease;
+    /* box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px; */
+}
+
+.card-modalidade picture:hover {
+    transform: scale(1.03);
+}
+
+.card-modalidade picture::before {
+	position: absolute;
+	top: 0;
+	left: -75%;
+	z-index: 2;
+	display: block;
+	content: '';
+	width: 50%;
+	height: 100%;
+	background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+	background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+	-webkit-transform: skewX(-25deg);
+	transform: skewX(-25deg);
+}
+.card-modalidade picture:hover::before {
+	-webkit-animation: shine 2s;
+	animation: shine 1.6s;
+}
+
+.header__ancora-aprender, .header__ancora-instagram, .header__ancora-contato {
+    -moz-transition: all .7s ease-in-out;
+    -o-transition: all .7s ease-in-out;
+    -webkit-transition: all .7s ease-in-out;
+    transition: all .7s ease-in-out;
+    background-size: 300% 100%;
+    background-image: linear-gradient(to left, #D9E242, #D7DF31, #503490, #503490); /* Alterado para 'to left' */
+    background-position: 100% 0; /* Adicionado para iniciar do lado direito */
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 2px, rgba(0, 0, 0, 0.08) 0px 2px 4px, rgba(0, 0, 0, 0.08) 0px 4px 8px, rgba(0, 0, 0, 0.08) 0px 8px 16px, rgba(0, 0, 0, 0.08) 0px 16px 32px, rgba(0, 0, 0, 0.08) 0px 32px 64px;
+}
+
+.header__ancora-aprender:hover, .header__ancora-instagram:hover, .header__ancora-contato:hover {
+    background-color: #175747;
+    background-position: 0 0; /* Alterado para '0 0' para terminar no lado esquerdo */
+    color: #D9E242;
+}
+
+.sobre-mim__foto-giulia {
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 2px, rgba(0, 0, 0, 0.08) 0px 2px 4px, rgba(0, 0, 0, 0.08) 0px 4px 8px, rgba(0, 0, 0, 0.08) 0px 8px 16px, rgba(0, 0, 0, 0.08) 0px 16px 32px, rgba(0, 0, 0, 0.08) 0px 32px 64px;
+    border-radius: 50px;
+}
+
+.card-globo {
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 2px, rgba(0, 0, 0, 0.08) 0px 2px 4px, rgba(0, 0, 0, 0.08) 0px 4px 8px, rgba(0, 0, 0, 0.08) 0px 8px 16px, rgba(0, 0, 0, 0.08) 0px 16px 32px, rgba(0, 0, 0, 0.08) 0px 32px 64px;
+    border-radius: 10px;
+}
+
+.sobre-mim__conteudo h2 {
+    text-shadow: 0.03em 0.05em 0 hsl(0deg 0% 89.31%);
+}
+
+
+.card-modalidade {
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 1px, rgba(6, 24, 44, 0.65) 0px 1px 2px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.diferenças__ancora, .diferenças__ancora__individuais {
+    -moz-transition: all .7s ease-in-out;
+    -o-transition: all .7s ease-in-out;
+    -webkit-transition: all .7s ease-in-out;
+    transition: all .7s ease-in-out;
+    background-size: 300% 100%;
+    background-image: linear-gradient(to left, #FF602D, #FF602D, #55C057, #55C057);
+    background-position: 100% 0; /* Adicionado para iniciar do lado direito */
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 2px, rgba(0, 0, 0, 0.08) 0px 2px 4px, rgba(0, 0, 0, 0.08) 0px 4px 8px, rgba(0, 0, 0, 0.08) 0px 8px 16px, rgba(0, 0, 0, 0.08) 0px 16px 32px, rgba(0, 0, 0, 0.08) 0px 32px 64px;
+}
+
+.diferenças__ancora__individuais {
+    background-image: linear-gradient(to left, #503490, #503490, #55C057, #55C057);
+}
+.diferenças__ancora:hover, .diferenças__ancora__individuais:hover {
+    background-color: #175747;
+    background-position: 0 0;
+    /* color: #FF602D; */
+    color: white;
+    /* border: 2px solid #D9E242; */
+} 
+
+.ancora-branca {
+    -moz-transition: all .7s ease-in-out;
+    -o-transition: all .7s ease-in-out;
+    -webkit-transition: all .7s ease-in-out;
+    transition: all .7s ease-in-out;
+    background-size: 300% 100%;
+    background-image: linear-gradient(to right, #ffffff, #ffffff, #503490, #503490);
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 2px, rgba(0, 0, 0, 0.08) 0px 2px 4px, rgba(0, 0, 0, 0.08) 0px 4px 8px, rgba(0, 0, 0, 0.08) 0px 8px 16px, rgba(0, 0, 0, 0.08) 0px 16px 32px, rgba(0, 0, 0, 0.08) 0px 32px 64px;
+}
+
+.ancora-branca:hover {
+    background-color: #175747;
+    background-position: 100% 0;
+    /* color: #FF602D; */
+    /* color: #D9E242; */
+    color: #D9E242;
+}
+@-webkit-keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
+@keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
+
+/* Scrollbar */
+* {
+    scrollbar-width: auto;
+    scrollbar-color:  #FF602D white;
+  }
+  
+  /* Chrome, Edge and Safari */
+  *::-webkit-scrollbar {
+    height: 30px;
+    width: 30px;
+  }
